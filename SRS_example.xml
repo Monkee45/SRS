@@ -1,0 +1,4467 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:ExportProfilesPagedResponse xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:ns2="http://host.bs.com/common/webservice/ProfileManagement/">
+			<returnCode>1</returnCode>
+			<returnMessage>129(LOADDEEXTENDED);129(LOADDECATEGORY);</returnMessage>
+			<totRecords>1</totRecords>
+			<returnedRecords>1</returnedRecords>
+			<startAt>1</startAt>
+			<returnCompanyData>
+				<returnCompanyInfo>
+					<bravoId>24788</bravoId>
+					<companyName>Sheridan Test Supplier Pty</companyName>
+					<vat>12345678</vat>
+					<status>Active</status>
+					<userSurName>Sheridan</userSurName>
+					<userName>Mike</userName>
+					<userEmail>michael.sheridan@lendlease.com</userEmail>
+					<userPhone/>
+					<locale>en_GB</locale>
+					<timezone>(GMT +10:00) Sydney, Canberra, Melbourne</timezone>
+					<userBusinessUnitCode/>
+					<userDivisionCode>Division</userDivisionCode>
+					<userProfileCode/>
+					<registrationDate>2020-02-25</registrationDate>
+					<buyerManaged>0</buyerManaged>
+					<type>SELLER</type>
+					<lastModTime>2020-03-23T01:31:27.000+00:00</lastModTime>
+					<userId>115402</userId>
+					<userDivisionId>89643</userDivisionId>
+					<userLoginCount>15</userLoginCount>
+					<userLastLoginDate>2020-03-24+00:00</userLastLoginDate>
+					<extUniqueCode/>
+					<userLastModTime>2020-02-25T03:56:59.000+00:00</userLastModTime>
+					<companyLastModTime>2020-02-25T03:57:33.000+00:00</companyLastModTime>
+					<registrationDateTime>2020-02-25T03:51:41.000+00:00</registrationDateTime>
+					<userLastLoginDateTime>2020-03-24T03:31:25.000+00:00</userLastLoginDateTime>
+					<statusCode>100</statusCode>
+					<timezoneCode>Australia/Sydney</timezoneCode>
+					<userPreferences>
+						<numberFormat>1</numberFormat>
+						<dateFormat>dd/MM/yyyy</dateFormat>
+						<timeFormat>HH:mm</timeFormat>
+						<firstWeekDay>MON</firstWeekDay>
+						<weekEndDays>0</weekEndDays>
+					</userPreferences>
+					<registeredMethod>0</registeredMethod>
+				</returnCompanyInfo>
+				<returnClassification>
+					<categoryInfo/>
+				</returnClassification>
+				<returnSubUser/>
+				<deBasic>
+					<deInfo>
+						<name>has_PAI</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Personal Accident Insurance</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:48:04.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:48:04.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_PI</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>Professional Indemnity Insurance</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:48:04.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:48:04.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_PPL</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Public and Product Liability Insurance</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:48:04.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:48:04.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_MY_Opns</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:50.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:12.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_SG_Opns</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singaporean Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:50.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:12.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_ISO_14001</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>ISO 14001</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:19.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:19.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_ISO_9001</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>ISO 9001</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:19.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:19.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_ISO_45001</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>ISO 45001</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:19.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:19.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_Social_Trader</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Social Trader</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:19.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:19.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_OHSAS_18001</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>OHSAS 18001</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:19.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:19.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_AS_4801</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>AS 4801</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:19.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:19.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_AU_OFSCommissioner</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>Office of the Federal Safety Commissioner</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:19.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:19.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Reg_Add_Address_Line_1</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>28 The Street</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Address Line 1</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Reg_Add_Address_Line_2</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Big Suburb</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Address Line 2</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Reg_Add_Address_Line_3</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Even bigger Region</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Address Line 3</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Reg_Add_City</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sydney</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Address City</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Reg_Add_Country</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Australia</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Address Country</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Reg_Add_Post_Code</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>2001</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Address Post/Zip Code</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Reg_Add_Province</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>NSW</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Address Province</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_1_Currency</name>
+						<type>5</type>
+						<values>
+							<value id="2">
+								<deValue>EU€</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 1 Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_2_Currency</name>
+						<type>5</type>
+						<values>
+							<value id="5">
+								<deValue>MYR</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 2 Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_3_Currency</name>
+						<type>5</type>
+						<values>
+							<value id="3">
+								<deValue>JP¥</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 3 Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Registration_Authority</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Judge Dread and the Global Police State</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registration Authority</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Registered_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan's Emporium</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registered Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Blasting_Explosives_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126609" secureToken="k9O3kiUF5Vq5Ijn6KljgfUXbUOJmygDM">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Blasting Explosives Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-04-03+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:11:36.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:11:36.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:11:36.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Building_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126599" secureToken="5SCOchl+8jS5Ijn6KljgfVpJMIXwUDAr">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Building Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-03-24+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:02:00.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:02:00.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:02:00.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Connection_or_Work_on_Sewerage_Drain_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126601" secureToken="dFPZx6XLUaC5Ijn6KljgfVpJMIXwUDAr">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Connection or Work on Sewerage/Drain Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-03-28+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:02:42.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:02:42.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:02:42.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Dangerous_Substances_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126605" secureToken="MZostqkTrdi5Ijn6KljgfVpJMIXwUDAr">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Dangerous Substances Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-04-01+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:08:54.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:08:54.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:08:54.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Disposal_of_Waste_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126602" secureToken="N1PanBWZYUu5Ijn6KljgfcuBoxM+etjh">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Disposal of Waste Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2021-03-18+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:03:16.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:03:16.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:03:16.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Electrical_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126603" secureToken="fPn+zk3TnQa5Ijn6KljgfcuBoxM+etjh">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Electrical Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2021-03-12+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:03:52.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:03:52.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:03:52.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Gas_Fitting_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126604" secureToken="1QQESfZL8By5Ijn6KljgfQTMXhJ45Sfd">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Gas Fitting Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-04-04+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:08:17.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:08:17.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:08:17.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Heritage_Properties_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126610" secureToken="dJ9IrknyqxW5Ijn6KljgfQTMXhJ45Sfd">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Heritage Properties Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-03-26+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:12:05.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:12:05.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:12:05.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Labour_Hire_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126606" secureToken="35mixFd+Nl+5Ijn6KljgfQTMXhJ45Sfd">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Labour Hire Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2021-04-10+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:09:38.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:09:38.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:09:38.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Plumbing_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126607" secureToken="UVazNIUbCXi5Ijn6KljgfQTMXhJ45Sfd">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Plumbing Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-04-05+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:10:16.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:10:16.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:10:16.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Removal_of_Asbestos_Licence</name>
+						<type>4</type>
+						<values>
+							<value id="126608" secureToken="b3FBUgBa/xG5Ijn6KljgfYbAJYGCAL5p">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Removal of Asbestos Licence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-03-30+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:11:05.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:11:05.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:11:05.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_ACT_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>ACT Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_NSW_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>NSW Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_NT_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>NT Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_QLD_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>QLD Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_SA_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>SA Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_TAS_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>TAS Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_VIC_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>VIC Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_has_WA_WC_Policy</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>WA Workers Compensation Insurance Policy</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_Licence_Types</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Building</deValue>
+							</value>
+							<value id="1">
+								<deValue>Connection or Work on Sewerage/Drain</deValue>
+							</value>
+							<value id="2">
+								<deValue>Disposal of Waste</deValue>
+							</value>
+							<value id="3">
+								<deValue>Electrical</deValue>
+							</value>
+							<value id="4">
+								<deValue>Gas Fitting</deValue>
+							</value>
+							<value id="5">
+								<deValue>Dangerous Substances</deValue>
+							</value>
+							<value id="6">
+								<deValue>Labour Hire</deValue>
+							</value>
+							<value id="7">
+								<deValue>Plumbing</deValue>
+							</value>
+							<value id="8">
+								<deValue>Removal of Asbestos</deValue>
+							</value>
+							<value id="9">
+								<deValue>Use of Blasting Explosives</deValue>
+							</value>
+							<value id="10">
+								<deValue>Work on Heritage Properties</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Licence Types</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:01:14.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:01:14.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_NSW_&amp;_ACT_Operations</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>All of the State/Territory</deValue>
+							</value>
+						</values>
+						<defaultLabel>NSW and ACT Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_NSW_WC_Certificate_of_Currency</name>
+						<type>4</type>
+						<values>
+							<value id="126575" secureToken="dtDUkKmBPf25Ijn6KljgfTCdpSc80XKP">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>NSW Workers Compensation Insurance Certificate of Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:56:23.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:56:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_NSW_WC_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>99</deValue>
+							</value>
+						</values>
+						<defaultLabel>NSW Workers Compensation Insurance Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:56:23.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:56:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_NT_Operations</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>All of the Territory</deValue>
+							</value>
+						</values>
+						<defaultLabel>NT Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_NT_WC_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>4</deValue>
+							</value>
+						</values>
+						<defaultLabel>NT Workers Compensation Insurance Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:57:54.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:57:54.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_QLD_Operations</name>
+						<type>5</type>
+						<values>
+							<value id="2">
+								<deValue>Nominated Regions</deValue>
+							</value>
+						</values>
+						<defaultLabel>QLD Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_QLD_Regions</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Greater Brisbane</deValue>
+							</value>
+							<value id="10">
+								<deValue>Wide Bay</deValue>
+							</value>
+						</values>
+						<defaultLabel>QLD Regions</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:50.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:32:50.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_SA_Operations</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>N/A</deValue>
+							</value>
+						</values>
+						<defaultLabel>SA Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_TAS_Operations</name>
+						<type>5</type>
+						<values>
+							<value id="2">
+								<deValue>Nominated Regions</deValue>
+							</value>
+						</values>
+						<defaultLabel>TAS Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_TAS_WC_Certificate_of_Currency</name>
+						<type>4</type>
+						<values>
+							<value id="126578" secureToken="sB8DSOr2qmK5Ijn6KljgfXGFGQpls+2P">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>TAS Workers Compensation Insurance Certificate of Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:57:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:57:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_TAS_WC_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>2</deValue>
+							</value>
+						</values>
+						<defaultLabel>TAS Workers Compensation Insurance Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:57:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:57:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_VIC_Operations</name>
+						<type>5</type>
+						<values>
+							<value id="2">
+								<deValue>Nominated Regions</deValue>
+							</value>
+						</values>
+						<defaultLabel>VIC Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_VIC_Regions</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Greater Melbourne Region</deValue>
+							</value>
+							<value id="1">
+								<deValue>Ballarat Region</deValue>
+							</value>
+							<value id="2">
+								<deValue>Bendigo Region</deValue>
+							</value>
+							<value id="3">
+								<deValue>Geelong Region</deValue>
+							</value>
+							<value id="4">
+								<deValue>Hume Region</deValue>
+							</value>
+							<value id="5">
+								<deValue>Latrobe - Gippsland Region</deValue>
+							</value>
+							<value id="6">
+								<deValue>North West Region</deValue>
+							</value>
+							<value id="7">
+								<deValue>Shepparton Region</deValue>
+							</value>
+							<value id="8">
+								<deValue>Warrnambool and South West Region</deValue>
+							</value>
+						</values>
+						<defaultLabel>VIC Regions</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_VIC_WC_Certificate_of_Currency</name>
+						<type>4</type>
+						<values>
+							<value id="126577" secureToken="9bPj5EmbGcK5Ijn6KljgfXZYZvjAjHYM">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>VIC Workers Compensation Insurance Certificate of Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:56:56.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:56:56.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_VIC_WC_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>1</deValue>
+							</value>
+						</values>
+						<defaultLabel>VIC Workers Compensation Insurance Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:56:56.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:56:56.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_WA_Operations</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>N/A</deValue>
+							</value>
+						</values>
+						<defaultLabel>WA Operations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:32:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:31:23.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>AU_WA_WC_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>3</deValue>
+							</value>
+						</values>
+						<defaultLabel>WA Workers Compensation Insurance Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:57:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:57:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BAM_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>SheridanEmporiumBAM@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>BAM Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BAM_Given_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's BAM first name</deValue>
+							</value>
+						</values>
+						<defaultLabel>BAM Given Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BAM_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>147258369</deValue>
+							</value>
+						</values>
+						<defaultLabel>BAM Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BAM_Surname</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's BAM surname</deValue>
+							</value>
+						</values>
+						<defaultLabel>BAM Surname</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BDM_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>SheridanEmporiumBDM@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>BDM Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BDM_Given_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's BDM first Name</deValue>
+							</value>
+						</values>
+						<defaultLabel>BDM Given Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BDM_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>369258147</deValue>
+							</value>
+						</values>
+						<defaultLabel>BDM Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>BDM_Surname</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's BDM surname</deValue>
+							</value>
+						</values>
+						<defaultLabel>BDM Surname</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:37:40.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:37:40.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Country_of_Origin</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Australia</deValue>
+							</value>
+						</values>
+						<defaultLabel>Country of origin of your business</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:24:39.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:24:39.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Current_Projects_Count</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>999</deValue>
+							</value>
+						</values>
+						<defaultLabel>Number of Current Projects</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Cyber_Secuity_Expiry</name>
+						<type>2</type>
+						<values>
+							<value>
+								<deValue>2021-03-22</deValue>
+							</value>
+						</values>
+						<defaultLabel>Cyber Security Expiry</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:00:59.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:00:59.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>does_Engage_Subcontractors</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Engage Subcontractors</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:15:03.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:15:03.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Employee_Count</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>123</deValue>
+							</value>
+						</values>
+						<defaultLabel>Number of Employees</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_Convictions</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Convicted of an Offence</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:15:26.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:15:26.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_EHS_Convictions</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>EHS Convictions</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:15:03.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:15:03.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_Enforceable_Undertakings</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Enforceable Undertakings</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:15:26.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:15:26.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_Parent_Company</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Parent Company</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:33:05.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:33:05.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_Public_Bid_Ban</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Public Bid Ban</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:15:26.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:15:26.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>has_Related_Companies</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Businesses</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:34:00.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:34:00.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Integrity_Check_R&amp;O_Analysis_Commentary</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>You must be joking</deValue>
+							</value>
+						</values>
+						<defaultLabel>Integrity Check RandO Analysis Commentary</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>in_Litigation_With_LL</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>In Litigation With Lendlease</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:15:26.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:15:26.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>IOB_Accreditation_Agency</name>
+						<type>5</type>
+						<values>
+							<value id="11">
+								<deValue>Self-Identify</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Indigenous Owned Business - Accreditation Agency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:16:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:16:22.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>IOB_Accreditation_Agency_Reference</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>123789456</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Indigenous Owned Business - Accreditation Agency Reference</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:16:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:16:22.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>IOB_Accreditation_Type</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Certified</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Indigenous Owned Business - Accreditation Type</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:16:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:16:22.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>IOB_StatDec</name>
+						<type>4</type>
+						<values>
+							<value id="126611" secureToken="FgyWKkNL+Qa5Ijn6Kljgfey4QyRYw9P7">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Indigenous Owned Business - Statutory Declaration</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-03-25+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T01:16:22.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T01:16:22.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:16:22.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>ISO14001_Expiry</name>
+						<type>2</type>
+						<values>
+							<value>
+								<deValue>2022-03-20</deValue>
+							</value>
+						</values>
+						<defaultLabel>ISO 14001 Environmental Management Certification Expiry</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:58:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:58:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>ISO45001_Expiry</name>
+						<type>2</type>
+						<values>
+							<value>
+								<deValue>2031-04-02</deValue>
+							</value>
+						</values>
+						<defaultLabel>ISO 45001 Occupational Health and Safety Certification Expiry</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:00:36.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:00:36.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>ISO9001_Expiry</name>
+						<type>2</type>
+						<values>
+							<value>
+								<deValue>2020-03-24</deValue>
+							</value>
+						</values>
+						<defaultLabel>ISO 9001 Quality Management Systems Certification Expiry</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:59:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:59:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>is_CoC_Accepted</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Code of Conduct</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:24:39.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:24:39.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>is_GMR_Accepted</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Global Minimum Requirements</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:24:39.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:24:39.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>is_IOBusiness</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Australian Aboriginal or Torres Strait Islander (Indigenous) Owned Business</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>is_T&amp;Cs_Accepted</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Terms and Conditions</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:24:39.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:24:39.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_References_Provided</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job References</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:16.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:16.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_1_Approx_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>25</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 1 Approx Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_1_Completed_Year</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>1894</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 1 Completed Year</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_1_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's Job Reference 1</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 1 Project Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_1_Referee_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>SheridanEmporiumReferee1@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 1 Referee Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_1_Referee_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's Referee Name 1</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 1 Referee Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_1_Referee_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>0402456789</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 1 Referee Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_2_Approx_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>80000</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 2 Approx Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_2_Completed_Year</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>1066</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 2  Completed Year</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_2_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's Job Reference 2</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 2 Project Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_2_Referee_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>SheridanEmporiumReferee2@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 2 Referee Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_2_Referee_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's Referee Name 2</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 2 Referee Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_2_Referee_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>0402987654</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 2 Referee Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_3_Approx_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>25000000</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 3 Approx Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_3_Completed_Year</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>1815</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 3 Completed Year</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_3_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's Job Reference 3</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 3 Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_3_Referee_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>SheridanEmporiumReferee3@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 3 Referee Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_3_Referee_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's Referee Name 3</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 3 Referee Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Job_Ref_3_Referee_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>0402258147</deValue>
+							</value>
+						</values>
+						<defaultLabel>Job Reference 3 Referee Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:45:32.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:45:32.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BAM_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>MalaysiaBAM@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BAM Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BAM_Given_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Malaysia BAM 1st name</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BAM Given Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BAM_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>+63258369</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BAM Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BAM_Surname</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Malaysia BAM Surname</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BAM Surname</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BDM_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>MalaysiaBDM@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BDM Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BDM_Given_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Malaysia BDM 1st name</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BDM Given Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BDM_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>+63963852</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BDM Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_BDM_Surname</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Malaysia BDM Surname</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian BDM Surname</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>MY_Local_Capabilities</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Design</deValue>
+							</value>
+							<value id="1">
+								<deValue>Supply</deValue>
+							</value>
+							<value id="2">
+								<deValue>Install</deValue>
+							</value>
+							<value id="3">
+								<deValue>Service and/or Maintain</deValue>
+							</value>
+						</values>
+						<defaultLabel>Malaysian Local Capabilities</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:29:31.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:29:31.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Office_Contact_Details_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>BigCheese*SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Office Contact Details Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Office_Contact_Details_Fax</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>+61245671235</deValue>
+							</value>
+						</values>
+						<defaultLabel>Office Contact Details Fax</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Office_Contact_Details_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>+61245671234</deValue>
+							</value>
+						</values>
+						<defaultLabel>Office Contact Details Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Office_Contact_Details_Website</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Emporium'R'Us.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Office Contact Details Website</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Origins_of_Supply</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Africa</deValue>
+							</value>
+							<value id="1">
+								<deValue>Arab States</deValue>
+							</value>
+							<value id="2">
+								<deValue>Asia and/or the Pacific</deValue>
+							</value>
+							<value id="3">
+								<deValue>Europe and/or Central Asia</deValue>
+							</value>
+							<value id="4">
+								<deValue>The Americas</deValue>
+							</value>
+						</values>
+						<defaultLabel>Manufacturing Source Locations</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:12:24.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:12:24.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Origins_of_Supply_Africa</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Angola</deValue>
+							</value>
+							<value id="1">
+								<deValue>Benin</deValue>
+							</value>
+							<value id="2">
+								<deValue>Botswana</deValue>
+							</value>
+							<value id="3">
+								<deValue>Burkina Faso</deValue>
+							</value>
+							<value id="4">
+								<deValue>Burundi</deValue>
+							</value>
+							<value id="5">
+								<deValue>Cameroon</deValue>
+							</value>
+							<value id="6">
+								<deValue>Central African Republic</deValue>
+							</value>
+							<value id="7">
+								<deValue>Chad</deValue>
+							</value>
+							<value id="8">
+								<deValue>Congo (Brazzaville)</deValue>
+							</value>
+							<value id="9">
+								<deValue>Congo, (Kinshasa)</deValue>
+							</value>
+							<value id="10">
+								<deValue>Côte d'Ivoire</deValue>
+							</value>
+							<value id="11">
+								<deValue>Eritrea</deValue>
+							</value>
+							<value id="12">
+								<deValue>Ethiopia</deValue>
+							</value>
+							<value id="13">
+								<deValue>Gabon</deValue>
+							</value>
+							<value id="14">
+								<deValue>Gambia</deValue>
+							</value>
+							<value id="15">
+								<deValue>Guinea</deValue>
+							</value>
+							<value id="16">
+								<deValue>Guinea-Bissau</deValue>
+							</value>
+							<value id="17">
+								<deValue>Kenya</deValue>
+							</value>
+							<value id="18">
+								<deValue>Lesotho</deValue>
+							</value>
+							<value id="19">
+								<deValue>Liberia</deValue>
+							</value>
+							<value id="20">
+								<deValue>Madagascar</deValue>
+							</value>
+							<value id="21">
+								<deValue>Mali</deValue>
+							</value>
+							<value id="22">
+								<deValue>Mauritius</deValue>
+							</value>
+							<value id="23">
+								<deValue>Mozambique</deValue>
+							</value>
+							<value id="24">
+								<deValue>Namibia</deValue>
+							</value>
+							<value id="25">
+								<deValue>Niger</deValue>
+							</value>
+							<value id="26">
+								<deValue>Nigeria</deValue>
+							</value>
+							<value id="27">
+								<deValue>Rwanda</deValue>
+							</value>
+							<value id="28">
+								<deValue>Senegal</deValue>
+							</value>
+							<value id="29">
+								<deValue>Seychelles</deValue>
+							</value>
+							<value id="30">
+								<deValue>Sierra Leone</deValue>
+							</value>
+							<value id="31">
+								<deValue>South Africa</deValue>
+							</value>
+							<value id="32">
+								<deValue>Swaziland</deValue>
+							</value>
+							<value id="33">
+								<deValue>Tanzania, United Republic of</deValue>
+							</value>
+							<value id="34">
+								<deValue>Togo</deValue>
+							</value>
+							<value id="35">
+								<deValue>Uganda</deValue>
+							</value>
+							<value id="36">
+								<deValue>Zambia</deValue>
+							</value>
+						</values>
+						<defaultLabel>Manufacturing Source Location: Africa</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:12:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:12:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Origins_of_Supply_Americas</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Belize</deValue>
+							</value>
+							<value id="1">
+								<deValue>Bermuda</deValue>
+							</value>
+							<value id="2">
+								<deValue>Bolivia</deValue>
+							</value>
+							<value id="3">
+								<deValue>Bouvet Island</deValue>
+							</value>
+							<value id="4">
+								<deValue>Cuba</deValue>
+							</value>
+							<value id="5">
+								<deValue>Ecuador</deValue>
+							</value>
+							<value id="6">
+								<deValue>El Salvador</deValue>
+							</value>
+							<value id="7">
+								<deValue>Guatemala</deValue>
+							</value>
+							<value id="8">
+								<deValue>Guyana</deValue>
+							</value>
+							<value id="9">
+								<deValue>Haiti</deValue>
+							</value>
+							<value id="10">
+								<deValue>Mexico</deValue>
+							</value>
+							<value id="11">
+								<deValue>Panama</deValue>
+							</value>
+							<value id="12">
+								<deValue>Saint Pierre and Miquelon</deValue>
+							</value>
+							<value id="13">
+								<deValue>Suriname</deValue>
+							</value>
+							<value id="14">
+								<deValue>Venezuela (Bolivarian Republic)</deValue>
+							</value>
+						</values>
+						<defaultLabel>Manufacturing Source Location: the Americas</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:13:04.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:13:04.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Origins_of_Supply_Arab_States</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Algeria</deValue>
+							</value>
+							<value id="1">
+								<deValue>Comoros</deValue>
+							</value>
+							<value id="2">
+								<deValue>Djibouti</deValue>
+							</value>
+							<value id="3">
+								<deValue>Egypt</deValue>
+							</value>
+							<value id="4">
+								<deValue>Iraq</deValue>
+							</value>
+							<value id="5">
+								<deValue>Kuwait</deValue>
+							</value>
+							<value id="6">
+								<deValue>Libya</deValue>
+							</value>
+							<value id="7">
+								<deValue>Mauritania</deValue>
+							</value>
+							<value id="8">
+								<deValue>Morocco</deValue>
+							</value>
+							<value id="9">
+								<deValue>Palestinian Territory</deValue>
+							</value>
+							<value id="10">
+								<deValue>Qatar</deValue>
+							</value>
+							<value id="11">
+								<deValue>Saudi Arabia</deValue>
+							</value>
+							<value id="12">
+								<deValue>Somalia</deValue>
+							</value>
+							<value id="13">
+								<deValue>Sudan</deValue>
+							</value>
+							<value id="14">
+								<deValue>Syria</deValue>
+							</value>
+							<value id="15">
+								<deValue>Tunisia</deValue>
+							</value>
+							<value id="16">
+								<deValue>United Arab Emirates</deValue>
+							</value>
+							<value id="17">
+								<deValue>Yemen</deValue>
+							</value>
+						</values>
+						<defaultLabel>Manufacturing Source Location: Arab States</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:13:29.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:13:29.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Origins_of_Supply_Asia_and_the_Pacific</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Bangladesh</deValue>
+							</value>
+							<value id="1">
+								<deValue>Brunei Darussalam</deValue>
+							</value>
+							<value id="2">
+								<deValue>Cambodia</deValue>
+							</value>
+							<value id="3">
+								<deValue>China</deValue>
+							</value>
+							<value id="4">
+								<deValue>Cook Islands</deValue>
+							</value>
+							<value id="5">
+								<deValue>Fiji</deValue>
+							</value>
+							<value id="6">
+								<deValue>French Polynesia</deValue>
+							</value>
+							<value id="7">
+								<deValue>India</deValue>
+							</value>
+							<value id="8">
+								<deValue>Iran, Islamic Republic of</deValue>
+							</value>
+							<value id="9">
+								<deValue>Korea (North)</deValue>
+							</value>
+							<value id="10">
+								<deValue>Kyrgyzstan</deValue>
+							</value>
+							<value id="11">
+								<deValue>Lao PDR</deValue>
+							</value>
+							<value id="12">
+								<deValue>Macao, SAR China</deValue>
+							</value>
+							<value id="13">
+								<deValue>Macedonia, Republic of</deValue>
+							</value>
+							<value id="14">
+								<deValue>Malaysia</deValue>
+							</value>
+							<value id="15">
+								<deValue>Marshall Islands</deValue>
+							</value>
+							<value id="16">
+								<deValue>Mongolia</deValue>
+							</value>
+							<value id="17">
+								<deValue>Myanmar</deValue>
+							</value>
+							<value id="18">
+								<deValue>Nauru</deValue>
+							</value>
+							<value id="19">
+								<deValue>Nepal</deValue>
+							</value>
+							<value id="20">
+								<deValue>Niue</deValue>
+							</value>
+							<value id="21">
+								<deValue>Pakistan</deValue>
+							</value>
+							<value id="22">
+								<deValue>Palau</deValue>
+							</value>
+							<value id="23">
+								<deValue>Papua New Guinea</deValue>
+							</value>
+							<value id="24">
+								<deValue>Philippines</deValue>
+							</value>
+							<value id="25">
+								<deValue>Samoa</deValue>
+							</value>
+							<value id="26">
+								<deValue>Sri Lanka</deValue>
+							</value>
+							<value id="27">
+								<deValue>Thailand</deValue>
+							</value>
+							<value id="28">
+								<deValue>Tonga</deValue>
+							</value>
+							<value id="29">
+								<deValue>Tuvalu</deValue>
+							</value>
+						</values>
+						<defaultLabel>Manufacturing Source Location: Asia and/or the Pacific</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:14:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:14:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Origins_of_Supply_Europe_and_Central_Asia</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Georgia</deValue>
+							</value>
+							<value id="1">
+								<deValue>Moldova</deValue>
+							</value>
+							<value id="2">
+								<deValue>Montenegro</deValue>
+							</value>
+							<value id="3">
+								<deValue>Serbia</deValue>
+							</value>
+							<value id="4">
+								<deValue>Russian Federation</deValue>
+							</value>
+							<value id="5">
+								<deValue>Turkey</deValue>
+							</value>
+						</values>
+						<defaultLabel>Manufacturing Source Location: Europe and/or Central Asia</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:14:39.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:14:39.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Package_Currency</name>
+						<type>5</type>
+						<values>
+							<value id="4">
+								<deValue>GB£</deValue>
+							</value>
+						</values>
+						<defaultLabel>Average Package Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Package_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>10</deValue>
+							</value>
+						</values>
+						<defaultLabel>Average Package Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PAI_Certificate_of_Currency</name>
+						<type>4</type>
+						<values>
+							<value id="126573" secureToken="YrnabfNV3r65Ijn6KljgfeCN0Vpp8y+P">
+								<deValue>New Text Document.txt</deValue>
+							</value>
+						</values>
+						<defaultLabel>Personal Accident Insurance Certificate of Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-03-27+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T00:53:55.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T00:53:55.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:53:55.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PAI_Currency</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>US$</deValue>
+							</value>
+						</values>
+						<defaultLabel>Personal Accident Insurance Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:53:55.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:53:55.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PAI_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>25</deValue>
+							</value>
+						</values>
+						<defaultLabel>Personal Accident Insurance Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:53:55.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:53:55.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Postal_Add_Address_Line_1</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My Postal Address</deValue>
+							</value>
+						</values>
+						<defaultLabel>Postal Address Line 1</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Postal_Add_Address_Line_2</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My Postal address suburb</deValue>
+							</value>
+						</values>
+						<defaultLabel>Postal Address Line 2</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Postal_Add_Address_Line_3</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My Postal address region</deValue>
+							</value>
+						</values>
+						<defaultLabel>Postal Address Line 3</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Postal_Add_City</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My Postal address City</deValue>
+							</value>
+						</values>
+						<defaultLabel>Postal Address City</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Postal_Add_Country</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My Postal Address Country</deValue>
+							</value>
+						</values>
+						<defaultLabel>Postal Address Country</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Postal_Add_Post_Code</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>2203</deValue>
+							</value>
+						</values>
+						<defaultLabel>Postal Address Post Code</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Postal_Add_Province</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My Postal Address State</deValue>
+							</value>
+						</values>
+						<defaultLabel>Postal Address Province</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPL_Certificate_of_Currency</name>
+						<type>4</type>
+						<values>
+							<value id="126574" secureToken="N3MhVRH8nNm5Ijn6KljgfYh0ylO36w23">
+								<deValue>New Text Document.pdf</deValue>
+							</value>
+						</values>
+						<defaultLabel>Public and Product Liability Certificate of Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<attachmentExpiryDate>2020-03-26+00:00</attachmentExpiryDate>
+						<attachmentExpiryDateManagedBy>BUYER_SELLER</attachmentExpiryDateManagedBy>
+						<attachmentExpiryDateLastUpdateUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</attachmentExpiryDateLastUpdateUser>
+						<attachmentExpiryDateLastUpdateDate>2020-03-23T00:54:57.000+00:00</attachmentExpiryDateLastUpdateDate>
+						<lastAnswerDate>2020-03-23T00:54:57.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:54:57.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPL_Currency</name>
+						<type>5</type>
+						<values>
+							<value id="3">
+								<deValue>JP¥</deValue>
+							</value>
+						</values>
+						<defaultLabel>Public and Product Liability Currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:54:57.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:54:57.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPL_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>1</deValue>
+							</value>
+						</values>
+						<defaultLabel>Public and Product Liability Value</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:54:57.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:54:57.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPoB_Add_Address_Line_1</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My principle place of Business</deValue>
+							</value>
+						</values>
+						<defaultLabel>Principal Place of Business Address Line 1</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPoB_Add_Address_Line_2</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My PPoB Street</deValue>
+							</value>
+						</values>
+						<defaultLabel>Principal Place of Business Address Line 2</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPoB_Add_Address_Line_3</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My PPoB Suburb</deValue>
+							</value>
+						</values>
+						<defaultLabel>Principal Place of Business Address Line 3</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPoB_Add_City</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My PPoB City</deValue>
+							</value>
+						</values>
+						<defaultLabel>Principal Place of Business City</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPoB_Add_Country</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My PPoB Country</deValue>
+							</value>
+						</values>
+						<defaultLabel>Principal Place of Business Country</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPoB_Add_Post_Code</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>2202</deValue>
+							</value>
+						</values>
+						<defaultLabel>Principal Place of Business Post Code</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>PPoB_Add_Province</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>My PPoB State</deValue>
+							</value>
+						</values>
+						<defaultLabel>Principal Place of Business Province</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Registration_Value</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>12345678</deValue>
+							</value>
+						</values>
+						<defaultLabel>Registration Number</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:30:37.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:30:37.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_1_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's 1st Related Company</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 1 - Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_1_Registration</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>12345</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 1 - Registration</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_2_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's 2nd Related Company</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 2 - Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_2_Registration</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>23456</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 2 - Registration</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_3_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's 3rd Related Company</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 3 - Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_3_Registration</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>34567</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 3 - Registration</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_4_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's 4th Related Company</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 4 - Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_4_Registration</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>45678</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 4 - Registration</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_5_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's 5th Related Company</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 5 - Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Related_Company_5_Registration</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>56789</deValue>
+							</value>
+						</values>
+						<defaultLabel>Related Company 5 - Registration</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:35:47.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:35:47.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Revenue_Currency</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>AU$</deValue>
+							</value>
+						</values>
+						<defaultLabel>Revenue currency</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Revenue_Last_Updated</name>
+						<type>2</type>
+						<values>
+							<value>
+								<deValue>2015-01-01</deValue>
+							</value>
+						</values>
+						<defaultLabel>Start Date of Revenue Period</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Revenue_Value</name>
+						<type>1</type>
+						<values>
+							<value>
+								<deValue>109</deValue>
+							</value>
+						</values>
+						<defaultLabel>Total revenue value for last three years</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BAM_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>SingaporeBAM@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BAM Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BAM_Given_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Singaporean BAM 1st Name</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BAM Given Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BAM_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>+61654321</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BAM Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BAM_Surname</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Singaporean BAM Surname</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BAM Surname</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BDM_Email</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>SingaporeBDM@SheridanEmporium.com.au</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BDM Email</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BDM_Given_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Singaporean BDM 1st Name</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BDM Given Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BDM_Phone</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>+62123456</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BDM Phone</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_BDM_Surname</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Singaporean BDM Surname</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore BDM Surname</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>SG_Local_Capabilities</name>
+						<type>6</type>
+						<values>
+							<value id="0">
+								<deValue>Design</deValue>
+							</value>
+							<value id="1">
+								<deValue>Supply</deValue>
+							</value>
+							<value id="2">
+								<deValue>Install</deValue>
+							</value>
+							<value id="3">
+								<deValue>Service and/or Maintain</deValue>
+							</value>
+						</values>
+						<defaultLabel>Singapore Local Capabilities</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:23:27.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:23:27.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Social_Trader_Expiry</name>
+						<type>2</type>
+						<values>
+							<value>
+								<deValue>2020-03-23</deValue>
+							</value>
+						</values>
+						<defaultLabel>Social Trader Expiry</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:00:43.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:00:43.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>State_Relationship</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Business Relationship to State</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Third_party_financial_assessment_accepted</name>
+						<type>5</type>
+						<values>
+							<value id="1">
+								<deValue>No</deValue>
+							</value>
+						</values>
+						<defaultLabel>Third party financial assessment accepted</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:40:10.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:40:10.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Ulitmate_Parent_Location</name>
+						<type>5</type>
+						<values>
+							<value id="79">
+								<deValue>Iran</deValue>
+							</value>
+						</values>
+						<defaultLabel>Ultimate Parent Company Location</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:33:45.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:33:45.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Ulitmate_Parent_Name</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>Sheridan Emporium's Parent Company</deValue>
+							</value>
+						</values>
+						<defaultLabel>Ultimate Parent Company Name</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:33:45.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:33:45.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>Ulitmate_Parent_Number</name>
+						<type>0</type>
+						<values>
+							<value>
+								<deValue>987654321</deValue>
+							</value>
+						</values>
+						<defaultLabel>Ultimate Parent Company Number</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T00:33:45.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T00:33:45.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>uses_Foreign_Labour</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Foreign Labour</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:12:24.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:14:51.000+00:00</lastConfirmedDate>
+					</deInfo>
+					<deInfo>
+						<name>uses_Labour_Hire_Services</name>
+						<type>5</type>
+						<values>
+							<value id="0">
+								<deValue>Yes</deValue>
+							</value>
+						</values>
+						<defaultLabel>Labour Hire Services</defaultLabel>
+						<defaultLabelLocale>en_GB</defaultLabelLocale>
+						<lastAnswerDate>2020-03-23T01:12:24.000+00:00</lastAnswerDate>
+						<lastAnswerUser>
+							<id>115402</id>
+							<name>Mike Sheridan</name>
+							<company>
+								<id>24788</id>
+								<name>Sheridan Test Supplier Pty</name>
+							</company>
+						</lastAnswerUser>
+						<lastConfirmedDate>2020-03-23T01:14:51.000+00:00</lastConfirmedDate>
+					</deInfo>
+				</deBasic>
+				<additionalStatusList/>
+			</returnCompanyData>
+		</ns2:ExportProfilesPagedResponse>
+	</soap:Body>
+</soap:Envelope>
